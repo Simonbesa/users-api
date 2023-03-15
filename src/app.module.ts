@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
-import { SignModule } from './sign/sign.module';
 
 @Module({
-  imports: [SignModule],
+  imports: [],
   controllers: [],
   providers: [],
 })
